@@ -100,6 +100,7 @@
 }
 
 //TODO : Union type with objects----------------------> :
+// " | "  this is union type and " & " intersection type
 type Animal =
   | { type: "dog"; breed: string }
   | { type: "cat"; color: string }
