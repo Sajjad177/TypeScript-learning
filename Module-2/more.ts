@@ -22,4 +22,30 @@
     124,
     { name: "hasa", email: "hasa@gmail.com" },
   ];
+
+  //TODO : Generic Interface------------------------------>
+  interface Developer<T> {
+    name: string;
+    computer: {
+      brand: string;
+      model: string;
+      year: number;
+    };
+    processor: T;
+  }
+
+  const poorDev: Developer<{ brand: string; model: string }> = {
+    name: "sajjad",
+    computer: {
+      brand: "Asus",
+      model: "asrock",
+      year: 2023,
+    },
+    processor: {
+      brand: "AMD",
+      model: "ryzan 7g",
+    },
+  };
+
+  //
 }
