@@ -1,6 +1,5 @@
 {
-  //TODO : access modifiers-------------------->
-
+  // TODO : Encapsulation in OOP------------------------->
   class BankBalance {
     readonly id: number;
     name: string; //* By default public this property.
@@ -29,9 +28,9 @@
 
   // Example usage:
   const poorAccount = new BankBalance(111, "Mr. Poor", 100);
-  console.log(`Initial balance: ${poorAccount.getBalance()}`); 
+  console.log(`Initial balance: ${poorAccount.getBalance()}`);
   poorAccount.deposit(150);
-  console.log(`New balance after deposit: ${poorAccount.getBalance()}`); 
+  console.log(`New balance after deposit: ${poorAccount.getBalance()}`);
 
   //
 }

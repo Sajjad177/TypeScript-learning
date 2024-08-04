@@ -54,19 +54,19 @@ class BankBalance {
 
 // Example usage:
 const poorAccount = new BankBalance(111, "Mr. Poor", 100);
-console.log(`Initial balance: ${poorAccount.getBalance()}`); 
+console.log(`Initial balance: ${poorAccount.getBalance()}`);
 
 // Using the getter for name
-console.log(`Account holder: ${poorAccount.name}`); 
+console.log(`Account holder: ${poorAccount.name}`);
 
 // Using the setter to change the name
 poorAccount.name = "Mr. Wealthy";
-console.log(`Updated account holder: ${poorAccount.name}`); 
+console.log(`Updated account holder: ${poorAccount.name}`);
 
 // Depositing money
 poorAccount.deposit(150);
-console.log(`New balance after deposit: ${poorAccount.getBalance()}`); 
+console.log(`New balance after deposit: ${poorAccount.getBalance()}`);
 
 // Using the setter to update the balance (if needed)
 poorAccount.balance = 300; // This is optional and depends on if you want to allow direct balance modification
-console.log(`Updated balance: ${poorAccount.getBalance()}`); 
+console.log(`Updated balance: ${poorAccount.getBalance()}`);
