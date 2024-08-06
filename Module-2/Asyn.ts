@@ -14,6 +14,7 @@
 
   // Calling createPromise function with error handling
   //* Promise<void> অংশটি বোঝায় যে showData ফাংশনটি একটি প্রমিজ রিটার্ন করবে যা কোনো নির্দিষ্ট টাইপের মান রিটার্ন করবে না।
+  //* Void cannot return anything.
   const showData = async (): Promise<void> => {
     try {
       const data: string = await createPromise();
