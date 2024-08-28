@@ -90,5 +90,5 @@ function isRecentBook(book: Book): boolean {
   return currentYear - book.publishedYear <= 5;
 }
 
-const result3 = isRecentBook(book1)
-console.log(result3)
+const result3 = isRecentBook(book1);
+console.log(result3);
